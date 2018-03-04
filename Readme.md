@@ -1,1 +1,1 @@
-# Compiler 8080
+# Compiler Z80
