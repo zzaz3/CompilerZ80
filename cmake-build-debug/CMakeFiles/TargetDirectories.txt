@@ -1,0 +1,3 @@
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/cmake-build-debug/CMakeFiles/Compiler8080.dir
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/include/Scanner.h
+token_types.h
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/include/token_types.h
+string
+-
+vector
+-
+fstream
+-
+
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/include/token_types.h
+
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/src/Scanner.cpp
+../include/Scanner.h
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/include/Scanner.h
+
+C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/main.cpp
+iostream
+-
+
