@@ -2,16 +2,16 @@
 // Created by spencer on 3/4/18.
 //
 
-#include <assert.h>
+#include <cassert>
 #include "../include/Preprocessor.h"
 
-token Preprocessor::getNextToken() {
-    token token = m_scanner.getNextToken();
+Token Preprocessor::getNextToken() {
+    Token token = m_scanner.getNextToken();
     if (token.type != TokenType::PREPROCESSOR_SYMBOL) {
         // Iterate through def table and replace value if found.
         if (token.type == TokenType::ID) {
-            for (const definition def : m_defines) {
-                if (*def.token.value == *token.value) {
+            for (const Definition def : m_defines) {
+                if (def.token.value == token.value) {
                     token.value = def.token.value;
                     token.type = def.token.type;
                     return token;
@@ -33,11 +33,11 @@ token Preprocessor::getNextToken() {
 }
 
 // TODO: Add error handling for TokenType values.
-void Preprocessor::addDefinition(token definition, token value) {
+void Preprocessor::addDefinition(Token definition, Token value) {
     //also check TokenType of value
     assert(definition.type == TokenType::ID);
 
-    definition def = {*definition.value, value};
+    Definition def = {definition.value, value};
     m_defines.push_back(def);
 }
 

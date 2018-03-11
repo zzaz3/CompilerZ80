@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/include"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
@@ -46,6 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/include"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
@@ -91,16 +93,19 @@
 		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/include/token_types.h">
 			<Option target="Compiler8080"/>
 		</Unit>
+		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/include/utility_functions.h">
+			<Option target="Compiler8080"/>
+		</Unit>
 		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/src/Preprocessor.cpp">
 			<Option target="Compiler8080"/>
 		</Unit>
 		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/src/Scanner.cpp">
 			<Option target="Compiler8080"/>
 		</Unit>
-		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/main.cpp">
+		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/Lexer/src/utility_functions.cpp">
 			<Option target="Compiler8080"/>
 		</Unit>
-		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/resources/input_file.c">
+		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/main.cpp">
 			<Option target="Compiler8080"/>
 		</Unit>
 		<Unit filename="C:/Users/zzaz3/floobits/share/Clifspeare/Compiler8080/CMakeLists.txt">

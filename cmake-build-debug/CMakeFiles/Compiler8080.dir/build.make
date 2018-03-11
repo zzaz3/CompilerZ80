@@ -57,6 +57,7 @@ include CMakeFiles/Compiler8080.dir/progress.make
 include CMakeFiles/Compiler8080.dir/flags.make
 
 CMakeFiles/Compiler8080.dir/main.cpp.obj: CMakeFiles/Compiler8080.dir/flags.make
+CMakeFiles/Compiler8080.dir/main.cpp.obj: CMakeFiles/Compiler8080.dir/includes_CXX.rsp
 CMakeFiles/Compiler8080.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Compiler8080.dir/main.cpp.obj"
 	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler8080.dir\main.cpp.obj -c C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\main.cpp
@@ -81,6 +82,7 @@ CMakeFiles/Compiler8080.dir/main.cpp.obj.provides.build: CMakeFiles/Compiler8080
 
 
 CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj: CMakeFiles/Compiler8080.dir/flags.make
+CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj: CMakeFiles/Compiler8080.dir/includes_CXX.rsp
 CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj: ../Lexer/src/Scanner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj"
 	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler8080.dir\Lexer\src\Scanner.cpp.obj -c C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\Lexer\src\Scanner.cpp
@@ -104,33 +106,10 @@ CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj.provides: CMakeFiles/Compi
 CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj.provides.build: CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj
 
 
-CMakeFiles/Compiler8080.dir/resources/input_file.c.obj: CMakeFiles/Compiler8080.dir/flags.make
-CMakeFiles/Compiler8080.dir/resources/input_file.c.obj: ../resources/input_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Compiler8080.dir/resources/input_file.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Compiler8080.dir\resources\input_file.c.obj   -c C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\resources\input_file.c
-
-CMakeFiles/Compiler8080.dir/resources/input_file.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Compiler8080.dir/resources/input_file.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\resources\input_file.c > CMakeFiles\Compiler8080.dir\resources\input_file.c.i
-
-CMakeFiles/Compiler8080.dir/resources/input_file.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Compiler8080.dir/resources/input_file.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\resources\input_file.c -o CMakeFiles\Compiler8080.dir\resources\input_file.c.s
-
-CMakeFiles/Compiler8080.dir/resources/input_file.c.obj.requires:
-
-.PHONY : CMakeFiles/Compiler8080.dir/resources/input_file.c.obj.requires
-
-CMakeFiles/Compiler8080.dir/resources/input_file.c.obj.provides: CMakeFiles/Compiler8080.dir/resources/input_file.c.obj.requires
-	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/resources/input_file.c.obj.provides.build
-.PHONY : CMakeFiles/Compiler8080.dir/resources/input_file.c.obj.provides
-
-CMakeFiles/Compiler8080.dir/resources/input_file.c.obj.provides.build: CMakeFiles/Compiler8080.dir/resources/input_file.c.obj
-
-
 CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj: CMakeFiles/Compiler8080.dir/flags.make
+CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj: CMakeFiles/Compiler8080.dir/includes_CXX.rsp
 CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj: ../Lexer/src/Preprocessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj"
 	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler8080.dir\Lexer\src\Preprocessor.cpp.obj -c C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\Lexer\src\Preprocessor.cpp
 
 CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.i: cmake_force
@@ -152,20 +131,45 @@ CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj.provides: CMakeFiles/
 CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj.provides.build: CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj
 
 
+CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj: CMakeFiles/Compiler8080.dir/flags.make
+CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj: CMakeFiles/Compiler8080.dir/includes_CXX.rsp
+CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj: ../Lexer/src/utility_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler8080.dir\Lexer\src\utility_functions.cpp.obj -c C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\Lexer\src\utility_functions.cpp
+
+CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\Lexer\src\utility_functions.cpp > CMakeFiles\Compiler8080.dir\Lexer\src\utility_functions.cpp.i
+
+CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zzaz3\floobits\share\Clifspeare\Compiler8080\Lexer\src\utility_functions.cpp -o CMakeFiles\Compiler8080.dir\Lexer\src\utility_functions.cpp.s
+
+CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj.requires
+
+CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj.provides: CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj.provides.build
+.PHONY : CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj.provides
+
+CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj.provides.build: CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj
+
+
 # Object files for target Compiler8080
 Compiler8080_OBJECTS = \
 "CMakeFiles/Compiler8080.dir/main.cpp.obj" \
 "CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj" \
-"CMakeFiles/Compiler8080.dir/resources/input_file.c.obj" \
-"CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj"
+"CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj" \
+"CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj"
 
 # External object files for target Compiler8080
 Compiler8080_EXTERNAL_OBJECTS =
 
 Compiler8080.exe: CMakeFiles/Compiler8080.dir/main.cpp.obj
 Compiler8080.exe: CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj
-Compiler8080.exe: CMakeFiles/Compiler8080.dir/resources/input_file.c.obj
 Compiler8080.exe: CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj
+Compiler8080.exe: CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj
 Compiler8080.exe: CMakeFiles/Compiler8080.dir/build.make
 Compiler8080.exe: CMakeFiles/Compiler8080.dir/linklibs.rsp
 Compiler8080.exe: CMakeFiles/Compiler8080.dir/objects1.rsp
@@ -180,8 +184,8 @@ CMakeFiles/Compiler8080.dir/build: Compiler8080.exe
 
 CMakeFiles/Compiler8080.dir/requires: CMakeFiles/Compiler8080.dir/main.cpp.obj.requires
 CMakeFiles/Compiler8080.dir/requires: CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.obj.requires
-CMakeFiles/Compiler8080.dir/requires: CMakeFiles/Compiler8080.dir/resources/input_file.c.obj.requires
 CMakeFiles/Compiler8080.dir/requires: CMakeFiles/Compiler8080.dir/Lexer/src/Preprocessor.cpp.obj.requires
+CMakeFiles/Compiler8080.dir/requires: CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj.requires
 
 .PHONY : CMakeFiles/Compiler8080.dir/requires
 

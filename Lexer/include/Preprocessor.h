@@ -5,27 +5,24 @@
 #ifndef COMPILER8080_PREPROCESSOR_H
 #define COMPILER8080_PREPROCESSOR_H
 #include "Scanner.h"
-#include "token_types.h"
 #include <algorithm>
 
-struct definition {
+struct Definition {
     std::string definition;
-    token token;
+    Token token;
 };
-
-
 
 class Preprocessor {
 public:
     Preprocessor();
 
-    token getNextToken();
+    Token getNextToken();
 private:
-    void addDefinition(token definition, token value);
+    void addDefinition(Token definition, Token value);
 
     Scanner m_scanner;
 
-    std::vector<definition> m_defines;
+    std::vector<Definition> m_defines;
 };
 
 

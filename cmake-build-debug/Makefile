@@ -176,6 +176,33 @@ Lexer/src/Scanner.cpp.s:
 	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/Lexer/src/Scanner.cpp.s
 .PHONY : Lexer/src/Scanner.cpp.s
 
+Lexer/src/utility_functions.obj: Lexer/src/utility_functions.cpp.obj
+
+.PHONY : Lexer/src/utility_functions.obj
+
+# target to build an object file
+Lexer/src/utility_functions.cpp.obj:
+	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.obj
+.PHONY : Lexer/src/utility_functions.cpp.obj
+
+Lexer/src/utility_functions.i: Lexer/src/utility_functions.cpp.i
+
+.PHONY : Lexer/src/utility_functions.i
+
+# target to preprocess a source file
+Lexer/src/utility_functions.cpp.i:
+	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.i
+.PHONY : Lexer/src/utility_functions.cpp.i
+
+Lexer/src/utility_functions.s: Lexer/src/utility_functions.cpp.s
+
+.PHONY : Lexer/src/utility_functions.s
+
+# target to generate assembly for a file
+Lexer/src/utility_functions.cpp.s:
+	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/Lexer/src/utility_functions.cpp.s
+.PHONY : Lexer/src/utility_functions.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -203,33 +230,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-resources/input_file.obj: resources/input_file.c.obj
-
-.PHONY : resources/input_file.obj
-
-# target to build an object file
-resources/input_file.c.obj:
-	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/resources/input_file.c.obj
-.PHONY : resources/input_file.c.obj
-
-resources/input_file.i: resources/input_file.c.i
-
-.PHONY : resources/input_file.i
-
-# target to preprocess a source file
-resources/input_file.c.i:
-	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/resources/input_file.c.i
-.PHONY : resources/input_file.c.i
-
-resources/input_file.s: resources/input_file.c.s
-
-.PHONY : resources/input_file.s
-
-# target to generate assembly for a file
-resources/input_file.c.s:
-	$(MAKE) -f CMakeFiles\Compiler8080.dir\build.make CMakeFiles/Compiler8080.dir/resources/input_file.c.s
-.PHONY : resources/input_file.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -245,12 +245,12 @@ help:
 	@echo ... Lexer/src/Scanner.obj
 	@echo ... Lexer/src/Scanner.i
 	@echo ... Lexer/src/Scanner.s
+	@echo ... Lexer/src/utility_functions.obj
+	@echo ... Lexer/src/utility_functions.i
+	@echo ... Lexer/src/utility_functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... resources/input_file.obj
-	@echo ... resources/input_file.i
-	@echo ... resources/input_file.s
 .PHONY : help
 
 

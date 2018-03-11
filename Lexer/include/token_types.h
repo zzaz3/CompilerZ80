@@ -5,25 +5,67 @@
 #ifndef COMPILER8080_TOKEN_TYPES_H
 #define COMPILER8080_TOKEN_TYPES_H
 #include <string>
+#include <map>
 
 enum class TokenType
 {
-    PREPROCESSOR_SYMBOL,
-    DEFINE,
-    INCLUDE,
-    WS,
-    INT,
-    FLOAT,
-    DOUBLE,
     ID,
     CONSTANT,
     LITERAL,
-    LESS_THAN
+
+    // preprocessors
+    PREPROCESSOR_SYMBOL,
+    DEFINE,
+    INCLUDE,
+
+    // special
+    LF,
+    WS,
+    LESS_THAN,
+    GREATER_THAN,
+
+    // reserved words
+    //native types
+    INT,
+    FLOAT,
+    DOUBLE,
+    BOOL,
+    CHAR,
+    SHORT,
+    LONG,
+    VOID,
+    //keywords
+    IF,
+    ELSE,
+    WHILE,
+    FOR,
+    DO,
+    SWITCH,
+    CASE,
+    CONTINUE,
+    BREAK,
+    STRUCT,
+    RETURN,
+    VOLATILE,
+    ENUM,
+    EXTERN,
+    STATIC,
+    CONST,
+    AUTO,
+    TYPEDEF,
+    DEFAULT,
+    REGISTER,
+    UNION,
+    SIGNED,
+    UNSIGNED,
+    GOTO,
+
+    UNDEFINED
 };
 
-struct token {
+struct Token {
     TokenType type;
-    std::string* value;
+    std::string value;
 };
 
 #endif //COMPILER8080_TOKEN_TYPES_H
